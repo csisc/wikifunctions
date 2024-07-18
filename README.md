@@ -14,5 +14,5 @@ The Jupyter Notebook provided is designed to interact with the Wikifunctions API
 * The <code>get_desc</code> method retrieves the function's description, names, argument types, and argument descriptions.
 * <code>names["Z1002"]</code> returns the function name in English.
 * <code>descriptions["Z1002"]</code> returns the function description in English.
-* <code>types["<func_id>K1"]</code> returns the type of the first argument where <code><func_id></code> is the function metadata id.
-* <code>vars["<func_id>K1", "Z1002"]</code> returns the name of the first argument in English where <code><func_id></code> is the function metadata id.
+* <code>types["<func_id>K1"]</code> returns the type of the first argument where <code><func_id></code> is the function metadata id corresponding to <code>zid</code> implementation.
+* <code>vars["<func_id>K1", "Z1002"]</code> returns the name of the first argument in English where <code><func_id></code> is the function metadata id corresponding to <code>zid</code> implementation.
