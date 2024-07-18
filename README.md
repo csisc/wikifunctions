@@ -10,9 +10,9 @@ The Jupyter Notebook provided is designed to interact with the Wikifunctions API
 
 ## Details
 * The Function class is initialized with an implementation ID (<code>zid</code>).
-* The get_func method retrieves the implementation code of the function.
-* The get_desc method retrieves the function's description, names, argument types, and argument descriptions.
-* names["Z1002"] returns the function name in English.
-* descriptions["Z1002"] returns the function description in English.
-* types["<func_id>K1"] returns the type of the first argument where <func_id> is the function metadata id.
-* vars["<func_id>K1", "Z1002"] returns the name of the first argument in English where <func_id> is the function metadata id.
+* The <code>get_func</code> method retrieves the implementation code of the function.
+* The <code>get_desc</code> method retrieves the function's description, names, argument types, and argument descriptions.
+* <code>names["Z1002"]</code> returns the function name in English.
+* <code>descriptions["Z1002"]</code> returns the function description in English.
+* <code>types["<func_id>K1"]</code> returns the type of the first argument where <code><func_id></code> is the function metadata id.
+* <code>vars["<func_id>K1", "Z1002"]</code> returns the name of the first argument in English where <code><func_id></code> is the function metadata id.
