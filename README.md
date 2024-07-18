@@ -9,7 +9,7 @@ The Jupyter Notebook provided is designed to interact with the Wikifunctions API
 * [JSON](https://docs.python.org/3/library/json.html)
 
 ## Details
-* The Function class is initialized with an implementation ID (zid).
+* The Function class is initialized with an implementation ID (<pre>zid</pre>).
 * The get_func method retrieves the implementation code of the function.
 * The get_desc method retrieves the function's description, names, argument types, and argument descriptions.
 * names["Z1002"] returns the function name in English.
