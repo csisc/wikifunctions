@@ -1,2 +1,2 @@
 # wikifunctions
-A Python package to load and reuse Wikifunctions implementations
+A Jupyter Notebook to load and reuse Wikifunctions implementations
